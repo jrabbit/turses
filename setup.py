@@ -43,11 +43,6 @@ REQUIREMENTS = [
     "tweepy==3.1.0",
     "future==0.14.3",
 ]
-if version_info[:2] == (2, 6):
-    REQUIREMENTS.append("argparse")
-
-TEST_REQUIREMENTS = list(REQUIREMENTS)
-TEST_REQUIREMENTS.extend(["mock", "pytest", "coverage", "tox"])
 
 try:
     long_description = open("README.rst").read() + "\n\n" + open(
@@ -83,5 +78,4 @@ setup(name=NAME,
           "Programming Language :: Python :: 3.5",
           "Topic :: Communications",
       ],
-      install_requires=REQUIREMENTS,
-      tests_require=TEST_REQUIREMENTS)
+      install_requires=REQUIREMENTS)
