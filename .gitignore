@@ -13,3 +13,4 @@ _build/
 .tox
 cover/
 *.ipynb
+.pytest_cache/

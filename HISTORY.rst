@@ -1,3 +1,7 @@
+0.4.0
+------
+- Kill old python version support please use 2.7+/3.5+
+
 0.3.1
 ------
 - Upgrade Tweepy dependency to 3.3
