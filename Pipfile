@@ -8,6 +8,7 @@ mock = "*"
 pytest = "*"
 "flake8" = "*"
 sphinx = "*"
+funcsigs = "*"
 
 [requires]
 python_version = "3.5"
